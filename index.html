@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <title>Sound Identification Web App</title>
@@ -11,12 +10,31 @@
   </head>
 
   <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2>Sound controlled Animals</h2>
+      <p>Note: Play different sounds like barks, meows, roar, and moos to see the pictures appear</p>>
+    </div>
+    <div class="main_div">
       <center>
-
+        <br>
+        <button class="btn btn-warning" onclick="startClassification();"> START </button>
+        <h3 id="result_label"> I can hear-</h3>
+        <h4 id="result_confidence"> Accuracy-</h4>
+        <br>
+        <img src="cat.png" id="cat" width="300" height="300">
+        <img src="dog.png" id="dog" width="300" height="300">
+        <img src="lion.jpeg" id="lion" width="300" height="300">
+        <img src="cow.png" id="cow" width="300" height="300">
       </center>
+    </div>
+    <div class="copy_right_footer"> 
+      Developed by - Rubani Roy
+    </div>
+      
 <script src="main.js"></script>
   </body>
 </html>
+
 
 
 
